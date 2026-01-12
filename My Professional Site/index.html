@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<title>My Professional Site</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <h1 class="logo">MySite</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#stats">Stats</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeToggle">🌙</button>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <img src="images/hero.jpeg">
+    <div class="hero-text">
+        <h2>Build Modern Websites</h2>
+        <p>Fast • Responsive • Professional</p>
+        <a class="btn" href="#contact">Hire Me</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <img src="images/about.jpeg">
+    <div>
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>
+                We create modern, high-quality static websites using clean and well-structured
+                HTML, CSS and JavaScript. Our goal is to build fast, secure and scalable
+                websites that deliver real value to users and businesses.
+            </p>
+
+            <p>
+                Every project is developed with a strong focus on performance, SEO and user
+                experience. We ensure that each website looks great, loads quickly and
+                functions smoothly on all devices and screen sizes.
+            </p>
+
+            <ul class="about-list">
+                <li>
+                    <i class="fas fa-code"></i>
+                    Clean & maintainable HTML, CSS and JavaScript code
+                </li>
+                <li>
+                    <i class="fas fa-bolt"></i>
+                    High-performance, lightweight and fast-loading websites
+                </li>
+                <li>
+                    <i class="fas fa-mobile-screen-button"></i>
+                    Fully responsive design for mobile, tablet and desktop
+                </li>
+                <li>
+                    <i class="fas fa-magnifying-glass-chart"></i>
+                    SEO-friendly structure for better search engine ranking
+                </li>
+                <li>
+                    <i class="fas fa-user-check"></i>
+                    User-focused design with smooth navigation and usability
+                </li>
+                <li>
+                    <i class="fas fa-shield-halved"></i>
+                    Secure, reliable and easy-to-maintain static websites
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+        <div class="service-card">
+            <img src="images/service1.jpeg">
+            <h3>Web Design</h3>
+            <p>Modern UI/UX design</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/service2.jpeg">
+            <h3>Development</h3>
+            <p>Clean & fast code</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/service3.jpeg">
+            <h3>SEO</h3>
+            <p>Google friendly structure</p>
+        </div>
+    </div>
+</section>
+
+<!-- STATS -->
+<section id="stats" class="stats">
+    <div class="stat">
+        <span data-count="120">0</span>+ Projects
+    </div>
+
+    <div class="stat">
+        <span data-count="80">0</span>+ Clients
+    </div>
+
+    <div class="stat">
+        <span data-count="5">0</span> Years Experience
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <img src="images/contact.jpg">
+    <form>
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit" class="btn">Send</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>&copy; <span id="year"></span> Developed by Safin. All rights reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
